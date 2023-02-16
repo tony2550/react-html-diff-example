@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display: block;
+}
+
+.App-header {
+  color: #61dafb;
+  background-color: black;
+  height: 5vh;
+}
+
+.App-title {
+  line-height: 5vh;
+}
+
+.App-tabs {
+  height: 5vh;
+}
+
+.App-tabs > span {
+  margin: 1vh 1vw;
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-body {
+  height: 90vh;
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diffmp-container {
+  width: 90vw;
+  height: 85vh;
+  display: flex;
+  gap: 2vw;
+}
+
+.diffmp-container > div {
+  display: block;
+  width: 50%;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+}
+
+.old-left-title {
+  height: 5vh;
+}
+
+.old-left-contentwrap {
+  max-height: 80vh;
+  max-width: 45vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.new-right-title {
+  height: 5vh;
+}
+
+.new-right-contentwrap {
+  max-height: 80vh;
+  max-width: 45vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

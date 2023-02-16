@@ -1,0 +1,23 @@
+ins {
+  background-color: green;
+}
+
+ins > p {
+  background-color: green;
+}
+
+ins > img {
+  border: 2px solid green;
+}
+
+del {
+  background-color: red;
+}
+
+del > p {
+  background-color: red;
+}
+
+del > img {
+  border: 2px solid red;
+}
